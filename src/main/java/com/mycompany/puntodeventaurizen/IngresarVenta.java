@@ -35,6 +35,7 @@ public class IngresarVenta extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         cmPago = new javax.swing.JComboBox<>();
         btnAtrasRVenta = new javax.swing.JButton();
+        jLabel4 = new javax.swing.JLabel();
 
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
@@ -53,15 +54,15 @@ public class IngresarVenta extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Javanese Text", 3, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(242, 242, 242));
         jLabel2.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\Monto.png")); // NOI18N
-        jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(54, 153, 180, -1));
+        jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 150, 180, -1));
 
         txtMonto.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel2.add(txtMonto, new org.netbeans.lib.awtextra.AbsoluteConstraints(276, 153, 94, -1));
+        jPanel2.add(txtMonto, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 160, 94, -1));
 
         jLabel3.setFont(new java.awt.Font("Javanese Text", 3, 24)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(242, 242, 242));
         jLabel3.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\Producto.png")); // NOI18N
-        jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(25, 93, 209, 34));
+        jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 90, 209, 34));
 
         cmProducto.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Playera Rock", "Playera Anime", "Playera Niño", "Pulsera", "Tazas", "Termo", "Stickers", "Sudadera", "Hitters", "Grindrs", "Falda", "Short", "Gorros", "Funko Pequeño", "Medias", "Papel Para Forjar", "Rompecabezas", "Pantalon de Cuero", "Collar ", "Collares Varios", "Pieza Ombligo", "Pieza Nariz ", "Pieza Oreja ", "Sin especificar ", "Varios Productos" }));
         cmProducto.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -70,7 +71,7 @@ public class IngresarVenta extends javax.swing.JFrame {
                 cmProductoActionPerformed(evt);
             }
         });
-        jPanel2.add(cmProducto, new org.netbeans.lib.awtextra.AbsoluteConstraints(276, 93, -1, -1));
+        jPanel2.add(cmProducto, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, -1, -1));
 
         btnAceptar.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\aceptar.png")); // NOI18N
         btnAceptar.setBorder(new javax.swing.border.MatteBorder(null));
@@ -79,23 +80,26 @@ public class IngresarVenta extends javax.swing.JFrame {
                 btnAceptarActionPerformed(evt);
             }
         });
-        jPanel2.add(btnAceptar, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 380, 218, 34));
+        jPanel2.add(btnAceptar, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 390, 218, 34));
 
         jLabel5.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\Tipo de Pago.png")); // NOI18N
-        jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 220, -1, 24));
+        jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 220, -1, 24));
 
         cmPago.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Transferencia", "Cobro por tarjeta", "Efectivo" }));
         cmPago.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel2.add(cmPago, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 220, -1, -1));
+        jPanel2.add(cmPago, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 220, -1, -1));
 
-        btnAtrasRVenta.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\FlechaChida.png")); // NOI18N
+        btnAtrasRVenta.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\home.png")); // NOI18N
         btnAtrasRVenta.setBorder(new javax.swing.border.MatteBorder(null));
         btnAtrasRVenta.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnAtrasRVentaActionPerformed(evt);
             }
         });
-        jPanel2.add(btnAtrasRVenta, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 370, 66, 47));
+        jPanel2.add(btnAtrasRVenta, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 360, 80, 80));
+
+        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\pequeño 200.jpeg")); // NOI18N
+        jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 260, -1, -1));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -202,6 +206,7 @@ public class IngresarVenta extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;

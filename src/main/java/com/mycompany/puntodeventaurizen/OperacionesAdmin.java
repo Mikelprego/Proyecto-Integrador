@@ -21,6 +21,7 @@ public class OperacionesAdmin extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         btnAtrasLogin = new javax.swing.JButton();
         btnActualizarExistencias = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
 
         jButton2.setText("jButton2");
 
@@ -30,7 +31,7 @@ public class OperacionesAdmin extends javax.swing.JFrame {
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\HacerHoy2.png")); // NOI18N
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(37, 24, -1, -1));
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, -1, -1));
 
         btnInventario.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\verInventario.png")); // NOI18N
         btnInventario.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
@@ -39,7 +40,7 @@ public class OperacionesAdmin extends javax.swing.JFrame {
                 btnInventarioActionPerformed(evt);
             }
         });
-        jPanel1.add(btnInventario, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 90, 317, 37));
+        jPanel1.add(btnInventario, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 80, 317, 37));
 
         verVentas.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\VerVentas.png")); // NOI18N
         verVentas.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
@@ -48,7 +49,7 @@ public class OperacionesAdmin extends javax.swing.JFrame {
                 verVentasActionPerformed(evt);
             }
         });
-        jPanel1.add(verVentas, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 140, 249, 34));
+        jPanel1.add(verVentas, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 130, 249, 34));
 
         jButton1.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\verPedidos.png")); // NOI18N
         jButton1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
@@ -57,16 +58,16 @@ public class OperacionesAdmin extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 190, 262, 30));
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 180, 262, 30));
 
-        btnAtrasLogin.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\FlechaChida.png")); // NOI18N
+        btnAtrasLogin.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\home.png")); // NOI18N
         btnAtrasLogin.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnAtrasLogin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnAtrasLoginActionPerformed(evt);
             }
         });
-        jPanel1.add(btnAtrasLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 430, 66, 47));
+        jPanel1.add(btnAtrasLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 420, 80, 70));
 
         btnActualizarExistencias.setBackground(new java.awt.Color(0, 0, 0));
         btnActualizarExistencias.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\ActualizarExistencias.png")); // NOI18N
@@ -76,7 +77,10 @@ public class OperacionesAdmin extends javax.swing.JFrame {
                 btnActualizarExistenciasActionPerformed(evt);
             }
         });
-        jPanel1.add(btnActualizarExistencias, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 240, 370, 40));
+        jPanel1.add(btnActualizarExistencias, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 220, 370, 40));
+
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\pequeño 200.jpeg")); // NOI18N
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 300, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -86,7 +90,7 @@ public class OperacionesAdmin extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 528, Short.MAX_VALUE)
         );
 
         pack();
@@ -146,6 +150,7 @@ public class OperacionesAdmin extends javax.swing.JFrame {
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JButton verVentas;
     // End of variables declaration//GEN-END:variables

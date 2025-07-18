@@ -47,7 +47,7 @@ public class OperacionesJFrame extends javax.swing.JFrame {
                 btnIngresarVentaActionPerformed(evt);
             }
         });
-        jPanel1.add(btnIngresarVenta, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 100, 253, 35));
+        jPanel1.add(btnIngresarVenta, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 100, 253, 35));
 
         btnIngresarPedido.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\IngresarPedido2.png")); // NOI18N
         btnIngresarPedido.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));

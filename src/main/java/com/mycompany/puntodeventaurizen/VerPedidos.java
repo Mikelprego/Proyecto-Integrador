@@ -33,7 +33,6 @@ public class VerPedidos extends javax.swing.JFrame {
         Tabla2 = new javax.swing.JTable();
         btnBorrarPedidos = new javax.swing.JButton();
         btnActualizarPedidos = new javax.swing.JButton();
-        btnActualizarPed = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -77,19 +76,14 @@ public class VerPedidos extends javax.swing.JFrame {
         });
         jPanel1.add(btnBorrarPedidos, new org.netbeans.lib.awtextra.AbsoluteConstraints(830, 430, -1, 90));
 
-        btnActualizarPedidos.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\editar.png")); // NOI18N
-        btnActualizarPedidos.setToolTipText("");
+        btnActualizarPedidos.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\refrescar.png")); // NOI18N
         btnActualizarPedidos.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jPanel1.add(btnActualizarPedidos, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 430, -1, -1));
-
-        btnActualizarPed.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\refrescar.png")); // NOI18N
-        btnActualizarPed.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        btnActualizarPed.addActionListener(new java.awt.event.ActionListener() {
+        btnActualizarPedidos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnActualizarPedActionPerformed(evt);
+                btnActualizarPedidosActionPerformed(evt);
             }
         });
-        jPanel1.add(btnActualizarPed, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 440, 90, 80));
+        jPanel1.add(btnActualizarPedidos, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 430, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -118,9 +112,9 @@ public class VerPedidos extends javax.swing.JFrame {
        limpiarTabla();
     }//GEN-LAST:event_btnBorrarPedidosActionPerformed
 
-    private void btnActualizarPedActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnActualizarPedActionPerformed
+    private void btnActualizarPedidosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnActualizarPedidosActionPerformed
         consultarpe();
-    }//GEN-LAST:event_btnActualizarPedActionPerformed
+    }//GEN-LAST:event_btnActualizarPedidosActionPerformed
 
     void eliminar(){
         int fila = Tabla2.getSelectedRow();
@@ -185,7 +179,6 @@ void consultarpe() {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTable Tabla2;
-    private javax.swing.JButton btnActualizarPed;
     private javax.swing.JButton btnActualizarPedidos;
     private javax.swing.JButton btnAtrasOperacionAdmin;
     private javax.swing.JButton btnBorrarPedidos;
