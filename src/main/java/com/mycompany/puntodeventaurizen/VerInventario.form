@@ -47,7 +47,7 @@
         <Component class="javax.swing.JLabel" name="jLabel2">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\UrizenMetalShop\inventario89.png"/>
+              <Image iconType="3" name="/com/mycompany/IMG/verInventario.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -59,7 +59,7 @@
         <Component class="javax.swing.JButton" name="btnAtrasOperAdmin">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\UrizenMetalShop\FlechaChida.png"/>
+              <Image iconType="3" name="/com/mycompany/IMG/home.png"/>
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">

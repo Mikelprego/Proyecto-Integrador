@@ -177,14 +177,14 @@
         <Component class="javax.swing.JLabel" name="jLabel1">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\UrizenMetalShop\IngresarPedidoUri.png"/>
+              <Image iconType="3" name="/com/mycompany/IMG/IngresarPedido2.png"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel2">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\UrizenMetalShop\fechapedidos.png"/>
+              <Image iconType="3" name="/com/mycompany/IMG/Fecha.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="jLabel2"/>
           </Properties>
@@ -192,14 +192,14 @@
         <Component class="javax.swing.JLabel" name="jLabel3">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\UrizenMetalShop\cliente.png"/>
+              <Image iconType="3" name="/com/mycompany/IMG/cliente.png"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel4">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\UrizenMetalShop\telefonopedido.png"/>
+              <Image iconType="3" name="/com/mycompany/IMG/telefonopedido.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="jLabel4"/>
           </Properties>
@@ -234,14 +234,14 @@
         <Component class="javax.swing.JLabel" name="jLabel5">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\UrizenMetalShop\productopedido.png"/>
+              <Image iconType="3" name="/com/mycompany/IMG/Producto.png"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel6">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\UrizenMetalShop\adelantopedido.png"/>
+              <Image iconType="3" name="/com/mycompany/IMG/adelantopedido.png"/>
             </Property>
           </Properties>
         </Component>
@@ -271,7 +271,7 @@
         <Component class="javax.swing.JLabel" name="jLabel7">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\UrizenMetalShop\restante.png"/>
+              <Image iconType="3" name="/com/mycompany/IMG/restante.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="jLabel7"/>
           </Properties>
@@ -297,7 +297,7 @@
         <Component class="javax.swing.JButton" name="btnSubir">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\UrizenMetalShop\subirpedido.png"/>
+              <Image iconType="2" name="C:\Users\Admin\Documents\clon\Proyecto-Integrador\src\main\java\com\mycompany\IMG\subirpedido.png"/>
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
@@ -312,7 +312,7 @@
         <Component class="javax.swing.JButton" name="btnAtrasOperaciones">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\UrizenMetalShop\home.png"/>
+              <Image iconType="2" name="C:\Users\Admin\Documents\clon\Proyecto-Integrador\src\main\java\com\mycompany\IMG\home.png"/>
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
@@ -327,7 +327,7 @@
         <Component class="javax.swing.JLabel" name="jLabel8">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\UrizenMetalShop\peque&#xf1;o 200.jpeg"/>
+              <Image iconType="2" name="C:\Users\Admin\Documents\clon\Proyecto-Integrador\src\main\java\com\mycompany\IMG\peque&#xf1;o 200.jpeg"/>
             </Property>
           </Properties>
         </Component>

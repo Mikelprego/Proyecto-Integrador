@@ -31,14 +31,12 @@ public class Inicio extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(255, 255, 0));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(192, 396, -1, -1));
-
-        lblLogo.setIcon(new javax.swing.ImageIcon("C:\\Users\\marti\\Downloads\\otromediano.png")); // NOI18N
         jPanel1.add(lblLogo, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 70, -1, -1));
 
         jPanel2.setBackground(new java.awt.Color(0, 0, 0));
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        btnIniciar.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\Iniciar3.png")); // NOI18N
+        btnIniciar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/IMG/Iniciar3.png"))); // NOI18N
         btnIniciar.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnIniciar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -47,7 +45,7 @@ public class Inicio extends javax.swing.JFrame {
         });
         jPanel2.add(btnIniciar, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 20, 180, 34));
 
-        btnSalirPrograma.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\salirchico.png")); // NOI18N
+        btnSalirPrograma.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/IMG/salirchico.png"))); // NOI18N
         btnSalirPrograma.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnSalirPrograma.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

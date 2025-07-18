@@ -44,7 +44,7 @@
         <Component class="javax.swing.JButton" name="btnAtrasAcE">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\UrizenMetalShop\home.png"/>
+              <Image iconType="2" name="C:\Users\Admin\Documents\clon\Proyecto-Integrador\src\main\java\com\mycompany\IMG\home.png"/>
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
@@ -62,11 +62,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel1">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\UrizenMetalShop\ActualizarExistencias2.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="29" y="27" width="425" height="-1"/>
@@ -76,7 +71,7 @@
         <Component class="javax.swing.JLabel" name="jLabel2">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\UrizenMetalShop\ProductoActualizar.png"/>
+              <Image iconType="2" name="C:\Users\Admin\Documents\clon\Proyecto-Integrador\src\main\java\com\mycompany\IMG\ActualizarExistencias2.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -121,7 +116,7 @@
         <Component class="javax.swing.JLabel" name="jLabel3">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\UrizenMetalShop\Cantidad.png"/>
+              <Image iconType="2" name="C:\Users\Admin\Documents\clon\Proyecto-Integrador\src\main\java\com\mycompany\IMG\Cantidad.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -147,7 +142,7 @@
         <Component class="javax.swing.JLabel" name="jLabel4">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\UrizenMetalShop\Talla.png"/>
+              <Image iconType="2" name="C:\Users\Admin\Documents\clon\Proyecto-Integrador\src\main\java\com\mycompany\IMG\Talla.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -188,7 +183,7 @@
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\UrizenMetalShop\subirpedido.png"/>
+              <Image iconType="2" name="C:\Users\Admin\Documents\clon\Proyecto-Integrador\src\main\java\com\mycompany\IMG\subirpedido.png"/>
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
@@ -205,7 +200,7 @@
         <Component class="javax.swing.JLabel" name="jLabel5">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\UrizenMetalShop\peque&#xf1;o 200.jpeg"/>
+              <Image iconType="2" name="C:\Users\Admin\Documents\clon\Proyecto-Integrador\src\main\java\com\mycompany\IMG\peque&#xf1;o 200.jpeg"/>
             </Property>
           </Properties>
           <Constraints>

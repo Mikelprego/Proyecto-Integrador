@@ -47,7 +47,7 @@
         <Component class="javax.swing.JButton" name="btnAtrasOperacionAdmin">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\UrizenMetalShop\home.png"/>
+              <Image iconType="3" name="/com/mycompany/IMG/home.png"/>
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
@@ -67,7 +67,7 @@
         <Component class="javax.swing.JLabel" name="jLabel1">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\UrizenMetalShop\pedidosemana.png"/>
+              <Image iconType="3" name="/com/mycompany/IMG/verPedidos.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="jLabel1"/>
           </Properties>
@@ -157,7 +157,7 @@
         <Component class="javax.swing.JButton" name="btnBorrarPedidos">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\UrizenMetalShop\borrar.png"/>
+              <Image iconType="3" name="/com/mycompany/IMG/borrar.png"/>
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
@@ -177,7 +177,7 @@
         <Component class="javax.swing.JButton" name="btnActualizarPedidos">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\UrizenMetalShop\refrescar.png"/>
+              <Image iconType="3" name="/com/mycompany/IMG/refrescar.png"/>
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">

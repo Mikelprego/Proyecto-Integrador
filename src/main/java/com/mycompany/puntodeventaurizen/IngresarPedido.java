@@ -42,14 +42,14 @@ public class IngresarPedido extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(0, 0, 0));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\IngresarPedidoUri.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/IMG/IngresarPedido2.png"))); // NOI18N
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\fechapedidos.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/IMG/Fecha.png"))); // NOI18N
         jLabel2.setText("jLabel2");
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\cliente.png")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/IMG/cliente.png"))); // NOI18N
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\telefonopedido.png")); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/IMG/telefonopedido.png"))); // NOI18N
         jLabel4.setText("jLabel4");
 
         txtCliente.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -58,21 +58,21 @@ public class IngresarPedido extends javax.swing.JFrame {
 
         txtTelefono.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\productopedido.png")); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/IMG/Producto.png"))); // NOI18N
 
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\adelantopedido.png")); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/IMG/adelantopedido.png"))); // NOI18N
 
         cmbProductos.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Playera ", "Playeras", "Tazas", "Termos", "MDF", "Otra Cosa", " " }));
         cmbProductos.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\restante.png")); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/IMG/restante.png"))); // NOI18N
         jLabel7.setText("jLabel7");
 
         txtAdelanto.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         txtRestante.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
-        btnSubir.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\subirpedido.png")); // NOI18N
+        btnSubir.setIcon(new javax.swing.ImageIcon("C:\\Users\\Admin\\Documents\\clon\\Proyecto-Integrador\\src\\main\\java\\com\\mycompany\\IMG\\subirpedido.png")); // NOI18N
         btnSubir.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnSubir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -80,7 +80,7 @@ public class IngresarPedido extends javax.swing.JFrame {
             }
         });
 
-        btnAtrasOperaciones.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\home.png")); // NOI18N
+        btnAtrasOperaciones.setIcon(new javax.swing.ImageIcon("C:\\Users\\Admin\\Documents\\clon\\Proyecto-Integrador\\src\\main\\java\\com\\mycompany\\IMG\\home.png")); // NOI18N
         btnAtrasOperaciones.setBorder(new javax.swing.border.MatteBorder(null));
         btnAtrasOperaciones.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -88,7 +88,7 @@ public class IngresarPedido extends javax.swing.JFrame {
             }
         });
 
-        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\pequeño 200.jpeg")); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Users\\Admin\\Documents\\clon\\Proyecto-Integrador\\src\\main\\java\\com\\mycompany\\IMG\\pequeño 200.jpeg")); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);

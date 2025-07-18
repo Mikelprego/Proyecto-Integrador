@@ -23,10 +23,10 @@ public class VerInventario extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(0, 0, 0));
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\inventario89.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/IMG/verInventario.png"))); // NOI18N
         jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 30, -1, -1));
 
-        btnAtrasOperAdmin.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\FlechaChida.png")); // NOI18N
+        btnAtrasOperAdmin.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/IMG/home.png"))); // NOI18N
         btnAtrasOperAdmin.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnAtrasOperAdmin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

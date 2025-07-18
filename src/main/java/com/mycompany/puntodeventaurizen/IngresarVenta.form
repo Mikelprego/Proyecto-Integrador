@@ -91,7 +91,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\UrizenMetalShop\RegistrarVenta.png"/>
+                  <Image iconType="3" name="/com/mycompany/IMG/RegistrarVenta.png"/>
                 </Property>
               </Properties>
               <Constraints>
@@ -109,7 +109,7 @@
                   <Color blue="f2" green="f2" red="f2" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\UrizenMetalShop\Monto.png"/>
+                  <Image iconType="3" name="/com/mycompany/IMG/Monto.png"/>
                 </Property>
               </Properties>
               <Constraints>
@@ -141,7 +141,7 @@
                   <Color blue="f2" green="f2" red="f2" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\UrizenMetalShop\Producto.png"/>
+                  <Image iconType="3" name="/com/mycompany/IMG/Producto.png"/>
                 </Property>
               </Properties>
               <Constraints>
@@ -202,7 +202,7 @@
             <Component class="javax.swing.JButton" name="btnAceptar">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\UrizenMetalShop\aceptar.png"/>
+                  <Image iconType="3" name="/com/mycompany/IMG/aceptar.png"/>
                 </Property>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
@@ -222,7 +222,7 @@
             <Component class="javax.swing.JLabel" name="jLabel5">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\UrizenMetalShop\Tipo de Pago.png"/>
+                  <Image iconType="3" name="/com/mycompany/IMG/Tipo de Pago.png"/>
                 </Property>
               </Properties>
               <Constraints>
@@ -258,7 +258,7 @@
             <Component class="javax.swing.JButton" name="btnAtrasRVenta">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\UrizenMetalShop\home.png"/>
+                  <Image iconType="3" name="/com/mycompany/IMG/home.png"/>
                 </Property>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
@@ -278,7 +278,7 @@
             <Component class="javax.swing.JLabel" name="jLabel4">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\UrizenMetalShop\peque&#xf1;o 200.jpeg"/>
+                  <Image iconType="3" name="/com/mycompany/IMG/peque&#xf1;o 200.jpeg"/>
                 </Property>
               </Properties>
               <Constraints>

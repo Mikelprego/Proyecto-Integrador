@@ -30,7 +30,6 @@ public class VerVentas extends javax.swing.JFrame {
         btnBorrarVentas = new javax.swing.JButton();
         btnActualizarVentas = new javax.swing.JButton();
 
-        btnActualizarPed.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\refrescar.png")); // NOI18N
         btnActualizarPed.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnActualizarPed.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -42,9 +41,9 @@ public class VerVentas extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(0, 0, 0));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\VentasAdmin.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/IMG/VerVentas.png"))); // NOI18N
 
-        btnAtrasOperaAdmin.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\home.png")); // NOI18N
+        btnAtrasOperaAdmin.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/IMG/home.png"))); // NOI18N
         btnAtrasOperaAdmin.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnAtrasOperaAdmin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -65,7 +64,7 @@ public class VerVentas extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(Tabla);
 
-        btnBorrarVentas.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\borrar.png")); // NOI18N
+        btnBorrarVentas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/IMG/borrar.png"))); // NOI18N
         btnBorrarVentas.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnBorrarVentas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -73,7 +72,7 @@ public class VerVentas extends javax.swing.JFrame {
             }
         });
 
-        btnActualizarVentas.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\refrescar.png")); // NOI18N
+        btnActualizarVentas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/IMG/refrescar.png"))); // NOI18N
         btnActualizarVentas.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnActualizarVentas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -86,12 +85,12 @@ public class VerVentas extends javax.swing.JFrame {
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(22, 22, 22)
-                .addComponent(btnAtrasOperaAdmin)
+                .addGap(30, 30, 30)
+                .addComponent(btnAtrasOperaAdmin, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(btnActualizarVentas)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btnBorrarVentas)
+                .addComponent(btnActualizarVentas, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(btnBorrarVentas, javax.swing.GroupLayout.PREFERRED_SIZE, 68, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(22, 22, 22))
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

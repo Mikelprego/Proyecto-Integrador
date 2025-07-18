@@ -39,7 +39,7 @@ public class VerPedidos extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(0, 0, 0));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        btnAtrasOperacionAdmin.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\home.png")); // NOI18N
+        btnAtrasOperacionAdmin.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/IMG/home.png"))); // NOI18N
         btnAtrasOperacionAdmin.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnAtrasOperacionAdmin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -48,7 +48,7 @@ public class VerPedidos extends javax.swing.JFrame {
         });
         jPanel1.add(btnAtrasOperacionAdmin, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 470, 80, 70));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\pedidosemana.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/IMG/verPedidos.png"))); // NOI18N
         jLabel1.setText("jLabel1");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(23, 16, -1, -1));
 
@@ -67,7 +67,7 @@ public class VerPedidos extends javax.swing.JFrame {
 
         jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 60, 850, 300));
 
-        btnBorrarPedidos.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\borrar.png")); // NOI18N
+        btnBorrarPedidos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/IMG/borrar.png"))); // NOI18N
         btnBorrarPedidos.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnBorrarPedidos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -76,7 +76,7 @@ public class VerPedidos extends javax.swing.JFrame {
         });
         jPanel1.add(btnBorrarPedidos, new org.netbeans.lib.awtextra.AbsoluteConstraints(830, 430, -1, 90));
 
-        btnActualizarPedidos.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\refrescar.png")); // NOI18N
+        btnActualizarPedidos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/IMG/refrescar.png"))); // NOI18N
         btnActualizarPedidos.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnActualizarPedidos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

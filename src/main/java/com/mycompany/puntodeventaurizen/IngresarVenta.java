@@ -48,12 +48,12 @@ public class IngresarVenta extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Javanese Text", 3, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\RegistrarVenta.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/IMG/RegistrarVenta.png"))); // NOI18N
         jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(25, 24, 409, 63));
 
         jLabel2.setFont(new java.awt.Font("Javanese Text", 3, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(242, 242, 242));
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\Monto.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/IMG/Monto.png"))); // NOI18N
         jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 150, 180, -1));
 
         txtMonto.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -61,7 +61,7 @@ public class IngresarVenta extends javax.swing.JFrame {
 
         jLabel3.setFont(new java.awt.Font("Javanese Text", 3, 24)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(242, 242, 242));
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\Producto.png")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/IMG/Producto.png"))); // NOI18N
         jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 90, 209, 34));
 
         cmProducto.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Playera Rock", "Playera Anime", "Playera Niño", "Pulsera", "Tazas", "Termo", "Stickers", "Sudadera", "Hitters", "Grindrs", "Falda", "Short", "Gorros", "Funko Pequeño", "Medias", "Papel Para Forjar", "Rompecabezas", "Pantalon de Cuero", "Collar ", "Collares Varios", "Pieza Ombligo", "Pieza Nariz ", "Pieza Oreja ", "Sin especificar ", "Varios Productos" }));
@@ -73,7 +73,7 @@ public class IngresarVenta extends javax.swing.JFrame {
         });
         jPanel2.add(cmProducto, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, -1, -1));
 
-        btnAceptar.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\aceptar.png")); // NOI18N
+        btnAceptar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/IMG/aceptar.png"))); // NOI18N
         btnAceptar.setBorder(new javax.swing.border.MatteBorder(null));
         btnAceptar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -82,14 +82,14 @@ public class IngresarVenta extends javax.swing.JFrame {
         });
         jPanel2.add(btnAceptar, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 390, 218, 34));
 
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\Tipo de Pago.png")); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/IMG/Tipo de Pago.png"))); // NOI18N
         jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 220, -1, 24));
 
         cmPago.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Transferencia", "Cobro por tarjeta", "Efectivo" }));
         cmPago.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel2.add(cmPago, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 220, -1, -1));
 
-        btnAtrasRVenta.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\home.png")); // NOI18N
+        btnAtrasRVenta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/IMG/home.png"))); // NOI18N
         btnAtrasRVenta.setBorder(new javax.swing.border.MatteBorder(null));
         btnAtrasRVenta.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -98,7 +98,7 @@ public class IngresarVenta extends javax.swing.JFrame {
         });
         jPanel2.add(btnAtrasRVenta, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 360, 80, 80));
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\pequeño 200.jpeg")); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/IMG/pequeño 200.jpeg"))); // NOI18N
         jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 260, -1, -1));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);

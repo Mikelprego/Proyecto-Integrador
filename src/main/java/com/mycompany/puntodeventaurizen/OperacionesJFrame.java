@@ -27,7 +27,7 @@ public class OperacionesJFrame extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(0, 0, 0));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        btnAdmin.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\user.png")); // NOI18N
+        btnAdmin.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/IMG/user.png"))); // NOI18N
         btnAdmin.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnAdmin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -37,10 +37,10 @@ public class OperacionesJFrame extends javax.swing.JFrame {
         jPanel1.add(btnAdmin, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 400, 90, 80));
 
         jLabel1.setFont(new java.awt.Font("Javanese Text", 3, 24)); // NOI18N
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\HacerHoy2.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/IMG/HacerHoy2.png"))); // NOI18N
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(25, 23, 609, 49));
 
-        btnIngresarVenta.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\IngresarVenta2.png")); // NOI18N
+        btnIngresarVenta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/IMG/IngresarVenta2.png"))); // NOI18N
         btnIngresarVenta.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnIngresarVenta.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -49,7 +49,7 @@ public class OperacionesJFrame extends javax.swing.JFrame {
         });
         jPanel1.add(btnIngresarVenta, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 100, 253, 35));
 
-        btnIngresarPedido.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\IngresarPedido2.png")); // NOI18N
+        btnIngresarPedido.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/IMG/IngresarPedido2.png"))); // NOI18N
         btnIngresarPedido.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnIngresarPedido.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -58,7 +58,7 @@ public class OperacionesJFrame extends javax.swing.JFrame {
         });
         jPanel1.add(btnIngresarPedido, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 150, 266, 38));
 
-        btnAtrasInicio.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\home.png")); // NOI18N
+        btnAtrasInicio.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/IMG/home.png"))); // NOI18N
         btnAtrasInicio.setBorder(new javax.swing.border.MatteBorder(null));
         btnAtrasInicio.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -66,8 +66,6 @@ public class OperacionesJFrame extends javax.swing.JFrame {
             }
         });
         jPanel1.add(btnAtrasInicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 410, 80, 70));
-
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\UrizenMetalShop\\pequeño 200.jpeg")); // NOI18N
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 290, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
