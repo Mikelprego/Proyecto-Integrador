@@ -21,6 +21,7 @@ public class OperacionesJFrame extends javax.swing.JFrame {
         btnIngresarPedido = new javax.swing.JButton();
         btnAtrasInicio = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -56,7 +57,7 @@ public class OperacionesJFrame extends javax.swing.JFrame {
                 btnIngresarPedidoActionPerformed(evt);
             }
         });
-        jPanel1.add(btnIngresarPedido, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 150, 266, 38));
+        jPanel1.add(btnIngresarPedido, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 160, 266, 38));
 
         btnAtrasInicio.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/IMG/home.png"))); // NOI18N
         btnAtrasInicio.setBorder(new javax.swing.border.MatteBorder(null));
@@ -67,6 +68,9 @@ public class OperacionesJFrame extends javax.swing.JFrame {
         });
         jPanel1.add(btnAtrasInicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 410, 80, 70));
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 290, -1, -1));
+
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/IMG/pequeño 200.jpeg"))); // NOI18N
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 290, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -128,6 +132,7 @@ public class OperacionesJFrame extends javax.swing.JFrame {
     private javax.swing.JButton btnIngresarVenta;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }
